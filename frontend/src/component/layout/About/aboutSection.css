@@ -85,6 +85,16 @@
   color: rgb(144, 81, 202);
 }
 
+.myflex{
+  display: flex;
+}
+
+.insideflex{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
 @media screen and (max-width: 600px) {
   .aboutSectionContainer > div {
     display: block;
