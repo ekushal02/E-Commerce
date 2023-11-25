@@ -1,0 +1,77 @@
+/* dashboard.css */
+.dashboard {
+  display: flex;
+}
+
+.dashboardContent {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboardHeading {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(131, 131, 131);
+}
+
+
+.lineChart,
+.doughnutChart {
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 0 auto; /* Center the charts */
+  text-align: center; /* Center the content within the charts */
+}
+
+/* Adjust the size of the charts */
+.apexcharts {
+  max-width: 100%; /* Set the maximum width to 100% */
+  margin: 0 auto;  /* Center the charts */
+}
+
+
+.totalAmountBox {
+  background-color: #670974;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.totalAmountValue {
+  font-size: 24px;
+}
+
+.dataCircles {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.circle1 {
+  background-color: rgba(9, 140, 233, 0.561);
+}
+
+.circle2 {
+  background-color: #d42512bd;
+}
+
+.circle3 {
+  background-color: #22b860cc;
+}
